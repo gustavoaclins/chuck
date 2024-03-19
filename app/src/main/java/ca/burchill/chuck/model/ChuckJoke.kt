@@ -1,4 +1,4 @@
-package ca.burchill.chuck.network
+package ca.burchill.chuck.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

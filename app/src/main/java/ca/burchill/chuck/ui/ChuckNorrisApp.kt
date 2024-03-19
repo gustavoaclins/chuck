@@ -31,7 +31,7 @@ fun ChuckNorrisApp() {
         Surface(
             modifier = Modifier.fillMaxSize()
         ) {
-            val chuckViewModel: ChuckViewModel = viewModel()
+            val chuckViewModel: ChuckViewModel = viewModel(factory = ChuckViewModel.Factory )
             HomeScreen(
                chuckUiState = chuckViewModel.chuckUiState,
                 contentPadding = it,
